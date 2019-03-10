@@ -1,0 +1,15 @@
+What are the aspects of good programming languages?
+
+1. Orthogonality
+    Ability to combine various features of a language
+    Ex: if(a<b) then s1 else s2
+2. Support for abstraction
+    Construct to factor out reccuring patterns
+    Ex: Recursive Function
+3. Natural for various applications
+    Ex: For business, mathematics, science, game and etc.
+4. Easy of program verification & debugging
+    Formal verification & desk checking.
+5. Portability and Transition
+    Minimum degree of computation and space complexity
+    Considering various architecture
