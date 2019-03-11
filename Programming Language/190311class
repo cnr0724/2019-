@@ -1,0 +1,67 @@
+"Language"=set(combination)
+Today's quiz=5 features of a good programming language+one more
+
+Different models of the programming language
+1. Traditional language
+2. Object-Oriented language
+3. Functional language: Based on lambda calculus
+4. Logical language
+
+Why do we use mathematical model? For completeness(can be proved if used)
+
+Since the architecture changes, the programming language changes also.
+Making programming language=making language grammar+making compiler
+
+--------------------------------------------------------------------------------------------------
+Today: Computer architecture and languages
+Von Neumann computer architecture:4 different components
+1. CPU(Central Processing Unit): Component to process data.
+2. Memory: Storage to store data and programs
+3. IO Devices
+4. Others: Power supply, graphic card etc.
+
+Conventional computer organization
+IO device(Data put, DRAM)->Main memory->Cache memory(SRAM, gate)-(Through bus)->CPU(data itself)->Data got.
+Inside CPU: Program address register, data register file, interpreter, prime operaters.
+
+Program three parts
+1. First part: Operator + Operands
+2. Second part: Memory for static data.
+3. Third part: Activation record(Memory for the function) + Heap(Dynamic parts)
+
+One word=32bits(in 32-bits machine) & 64bits(in 64-bits machine)
+When the data reaches the CPU, word is divided into operator & operands
+
+2 functional units: Arithmetic unit & Logical unit.
+The computer only handles the numbers.
+
+Contents frozen=state
+Initial state-(Apply something)->new state->...->result.
+
+Major components of a computer that correspond to the six major aspects of a programming language
+1. Data: Elementary data types(Integer, float...primitive language that language provides, simple & efficient)
+and structured data.
+Built-in data(built in by the language) vs user-defined data.
+Data contains the content.
+Data type=certain ways to translate the data(but the data is data!)
+2. Operation: Set of operations to manipulate the data.
+Sequence control: mechanism to control the instruction sequence.
+  1. Instruction level sequence control 
+  2. Statement level sequence control
+  3. Functional level sequence control
+3. Data access: Mechanism to access and control the data
+4. Storage management: Mechanism to control the storage of data and instructions
+5. Operation environment: Mechanism for communication with external devices
+6. Other factors: System architecture(Von Neumann VS Multiprocessor system, RISC/SIMD/MIMD/SPMD)
+Multiprocessor doesn't always work(if the process is sequential.)
+4 types of parallelism
+
+SIMD: Single Instruction Multiple Data(Single instruction, multiple processor)
+
+Syntax:
+  Grammar: TNPS
+    Terminal: A finite set of terminals (Terminal=Symbol which not can be changed to something else.)
+    Nonterminal: A finite set of non-terminals not in T
+    Production: A finite set of production(rewriting) rules (How to change the non-terminals)
+    Start symbol: An element of N the distinguished starting non-terminal
+  오토마타가 그래머로 하는 일: Non-terminal이 주어졌을 때 Production rule을 적용해 given string을 만들 수 있는지 없는지 확인
