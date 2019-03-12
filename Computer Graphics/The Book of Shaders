@@ -1,0 +1,45 @@
+https://thebookofshaders.com/00/?lan=en
+
+Introduction
+Fragment shader gives the user the control over the pixels rendered on the screen at a super fast speed.
+Recommendation: https://processing.org/
+How to use and integrate shaders into the projects, improving their performance and graphical quality.
+
+Getting started
+The definition of a fragment shader.
+Shaders are a set of instructions which are executed all at once for every single pixel on the screen.
+The code has to behave differently depending on the position of the pixel on the screen.
+The speed of fragment shader is fast due to parallel processing.
+The GPU(Graphic Processor Unit) is like a bundle that holds lots of tiny microprocessors running in parallel at the same time.
+GLSL=openGL Shading Language.
+Recommendation: http://openglbook.com/chapter-0-preface-what-is-opengl.html
+Why are shaders famously painful?
+In order to run every pipe, or thread, in parallel, they have to be independent from other threads.
+This restriction makes all data flowing in the same direction, and impossible to check the other threads.(At the threads' point of view.)
+Also the GPU keeps the parallel microprocessor contstantly busy,
+which makes the threads impossible to know what it was doing previously.
+*The thread is blind and memoryless.*
+
+Hello World
+https://thebookofshaders.com/02/?lan=en
+Code:
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+void main() {
+	gl_FragColor = vec4(1.0,0.0,1.0,1.0);
+}
+31번째 줄의 vec4는 vec4(RED, GREEN, BLUE, ALPHA);
+RGBA 모두 float 형태로 입력. (Alpha=opacity)
+RGB는 vec3으로 나타낼 수 있음.
+따라서 색 지정 뒤 alpha만 바꾸는 경우에는
+vec3 color(){
+  return vec3(0.r, 0.g, 0.b);
+}
+void main(){
+  gl_FragColor=vec4(color(), 0.a);
+}
+가 가능할듯.
+Float types are vital in shaders, so the level of precision is crucial.
+(Lower precision=faster rendering at the cost of quality.)
