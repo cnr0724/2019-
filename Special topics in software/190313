@@ -1,0 +1,52 @@
+Loop Operations
+map, for-each
+map car'((a 1)(b 1)(c 2)))->'(a b c)
+when combined with lambda function, it can be more flexible.
+(lambda=function without name)
+
+(car '(a 1))->'a
+((lambda (x)(+ x x)) 3 -> 6
+(map( lambda (x)(+ x x))'(1 2 3 4))->'(2 4 6 8)
+(define x 0)
+(for-each (lambda (n) (set! x (+ x n)))'(1 2 3 4))
+x->10
+
+let: local variable definition
+Ex)
+(let ((x 1)(y 2))
+      (set! x (+ x y))
+      (display x)
+      x
+)->3
+
+Control Statement
+if
+(if cond ; condition
+    expr1; then
+    expr2; else, optional
+}
+
+case
+(case key
+    (index1 expr1)
+    (index2 expr2)
+    ...
+    (else exprn);
+)
+->if key=index2, return expr2.
+
+cond: condition
+(cond
+    (cond1 expr1)
+    (cond2 expr2)
+    ...
+    (else expr_n)
+)
+
+define: user defined function
+(define (fn_name arg1, arg2, ...)
+    expr1
+    expr2
+    ...
+    expr_n;
+
