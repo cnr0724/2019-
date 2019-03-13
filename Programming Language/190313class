@@ -1,0 +1,50 @@
+Syntax:
+  Grammar: TNPS
+    Terminal: A finite set of terminals (Terminal=Symbol which not can be changed to something else.)
+    Nonterminal: A finite set of non-terminals not in T
+    Production: A finite set of production(rewriting) rules (How to change the non-terminals)
+    Start symbol: An element of N the distinguished starting non-terminal
+  오토마타가 그래머로 하는 일: Non-terminal이 주어졌을 때 Production rule을 적용해 given string을 만들 수 있는지 없는지 확인
+  
+Parsing
+  2 parsing methods(LL(k) parser or LR(k) parser) generate parsing tree based on given grammer G.
+*컴파일러 파트에서 자세하게 배울 예정.
+G=
+  E:= E + T | T
+  T:= T * F | F
+  F:= (E)
+  F:= N
+  N:= 0|1|2|3|4|5|6|7|8|9
+Parse tree for n+n*n using a grammer.
+
+Compilation language & compilation process.-> ppt 참조.
+
+Compiler and translation related issues:
+Structure of a compiler.
+Source program->lexical analysis->syntax analysis->semantic analysis->intermediate code
+semantic analysis는 어려움.
+강의 15분~30분 부분 다시 들어봐야 할 것 같다.
+
+Language Design Issues
+Binding Times
+Binding = Assigning a value to particular characteristic
+4 types of binding times.
+1. Language definition 
+2. Language implementation
+3. Program translation
+4. Program execution
+
+long은 늘 32비트. int는 다른 머신에 가면 크기가 바뀔 수 있음.
+#define trsize(x)
+  if(x==32bit)
+  else
+    int long;
+
+Classes of the language according to the chomsky hierarchy.
+Class #(Can tell more complicated grammar, pattern as number is smaller):
+          Grammar / Language / Automata
+Class 0:  Unrestricted grammar / Turing Machine(impossible)
+Class 1:  Context Sensitive Grammar / Linear Bounded Automata(impossible, natural language processing)
+Class 2:  Context Free Grammar / Push Down Automata
+Class 3:  Regular Grammar / Finite State Automata
+Class가 높아질수록 할 수 있는 일은 늘어나지만 그만큼 cost도 비싸짐.
