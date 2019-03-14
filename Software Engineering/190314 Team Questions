@@ -1,0 +1,32 @@
+팀이...바뀌었네...
+
+Team questions
+1. Code of Ethics?
+2. The challenges the software engineer can face?
+3. The most important general issue on software engineering (heterogenity 등 세개의 요소 중에서)?
+4. Interesting application?
+5. What to do when the market and the customer doesn't need the software?
+6. How can we choose the software model?
+7. What are the best model for the fast-changing society?
++내꺼 두개.
+
+->우리팀
+(1. How should we cope with these days' software engineering; explain including the software model and the way to deal with expired software.
+Component-based:
+Open source software already. Finding and assembling the components is needed to reflect and match the changing society.
+Iterative:
+Fast-changing-> customer requirements may change very fast. So the iterative model is appropriate to cope with the continuous feedback.
+We cannot apply iterative model to some software, so it may not be the most appropriate.
+Iterative also requires quite time to specificate the client's requirement.
+2. On the slide 16th, which issue is the most important one at the aspect of software engineering?)
+
+3. What are the problems that can happen at a web-based development environment?
+Security problem:
+The languages used for the web-based development are script languages including the JS, and the codes can be revealed
+thus have the danger of the weakness being revealed (and attacked).
+->Security of the open source software? The weakness is solved.
+Cloud computing?
+
+4. What is specific example of the reuse of software? Then, explain several profits of software reusing.
+The weakness of software reusing?
+The result of the software depends on the component that is reused. Also, it is very hard to find the exact component that matches the software.
