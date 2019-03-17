@@ -1,0 +1,138 @@
+System Engineering
+Objectives:
+The concept of a sociotechnical system and technical computer-based system
+The concept of emergent system properties
+The conceptual design, procurement, development, operation and evolution.
+Dependability and security.
+
+1. Complex systems
+A system=a purposeful collection of inter-related components working together to achieve some common objective (not isolated, part of a bigger, complex system).
+A system may include software, hardware and people.
+E.g., Wilderness weather system=part of broader weather recording and forecasting system.
+
+The Sociotechnical systems stack.
+Society: Laws, regulation and culture
+Organization: Higher level strategic business activities
+Business processes
+Application system
+Communications and data management Middleware
+Operating system
+Equipment
+
+System Categories
+1. Technical computer-based systems: Systems including hardware and software
+2. Socio-technical systems: 1+operational processes and people.
+
+Organizational affects process, job, organization.
+
+Socio-technical system characteristics
+1. Emergent properties: Properties of the system as a whole. Assessed and measured once the components have been integrated into a system.
+E.g., volume, reliability, security, repairability, usability.
+Influences on reliability: hardware, software, operator reliability.
+Failures are not independent and they propagate from one level to another.
+Failure propagation. (operation->software->hardware investigate)
+2. Non-deterministic
+A deterministic system is one where a given sequence of inputs will always produce the same sequence of outputs.
+3. Success Criteria
+Complex systems are developed to address wicked problems.
+Different stakeholders see the problem in different ways and each has a partial understanding of the issues affecting the system.
+
+Conflicting view of success.
+
+2. Systems Engineering
+Conceptual design, procuring, specifying, designing, implementing, validating, deploying and maintaining socio-technical systems.
+Services, constraints, ways.
+
+Stages of systems engineering.
+Conceptual design: Sets out the purpose, need of the system and the high-level features.
+Procurement: Requirements defined, decisions are made and system components are purchased.
+Development: System developed.
+Operation: System deployed and put into use.
+
+Profession disciplines involved in systems engineering.
+Architecture, electrical engineering, electronic engineering, civil engineering, software engineering, mechanical engineering, ergonomics, UI design.
+
+Inter-disciplinary working.
+Communication difficulties: Different disciplines use the same terminology to mean different things.
+
+Part 1 Summary
+Socio-tech systems include hardware, software, and people and are designed to meet a business goal.
+Human and organizational factors have a significant effect.
+Emergent properties are the characteristic of the system as a whole and not its component parts.
+The fundamental stages of systems engineering: conceptual design, procurement, development and operation.
+
+3. Conceptual Design
+Investigate the feasibility of an idea and develop.
+Precedes and overlaps with requirements engineering.
+Goal: create a high-level system description.
+
+Conceptual design activities
+Concept formulation + problem understanding + system proposal development + feasibility study + system structure development= System vision document.
+
+4. System Procurement
+Acquiring a system (or systems) to meet some identified organizational need.
+Before procurement, decisions about procuring a system, the type of system and the potential system suppliers are made on scope of the system, system budgets and timescales, high-level system requirements.
+
+Decision drivers
+The state of other organizational systems
+External regulations & competition
+Business re-organization
+Available budget.
+
+Procurement and development
+Some system specification and architectural design is necessary before procurement.
+Let a contract for system development.
+The specification allow you to buy a commercial off the shelf system.
+
+System procurement processes
+Off-the-shelf systems
+Configurable systems
+Custom systems
+
+Procurement Issues
+The detailed rules and regulations force the development of detailed requirements and make agile development difficult.
+
+5. System Development
+Usually follows a plan-driven approach because of the need for parallel development of different parts of the system.
+
+[System requirements definition
+Three types of requirement
+1. Abstract functional requirements
+2. System properties
+3. Undesirable characteristics
+->Should also define overall organizational objectives
+[The Architectural design process
+1. Partition requirements
+2. Identify sub-systems
+3. Assign requirements to sub-systems
+4. Specify sub-system functionality
+5. Define sub-system interfaces
+*Requirements and design spiral
+[Sub-system engineering
+Parallel projects/ Lack of communication / Bureaucratic & slow mechanism.
+[System Integration
+The process of putting hardware, software and people together.
+Should ideally be tackled incrementally so that sub-systems are integrated one at a time.
+Interface problems usually found.
+[System delivery and deployment
+After completion, the system has to be installed in the customer’s environment.
+Some issues.
+[System operation
+Operational processes are the processes involved in using the system for its defined purpose.
+
+6. Error
+1. Human error
+1. Person approach
+2. Systems approach
+2. System Evolution
+Large systems=long lifetime. Evolution necessary. Inherently costly.
+Existing systems which must be maintained are sometimes called legacy systems.
+
+Factors affecting system lifetimes
+Investment cost, loss of expertise, replacement cost.
+
+Part 2 Summary
+Conceptual design
+System procurement covers all of the activities involved in deciding what system to develop, buy, outsource and who should supply that system.
+System development/operation/evolution
+Human errors are inevitable and systems should include barriers to detect these error before they lead to system failure.
