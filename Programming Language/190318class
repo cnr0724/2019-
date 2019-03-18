@@ -1,0 +1,17 @@
+Classes of the language according to the chomsky hierarchy.
+Class #(Can tell more complicated grammar, pattern as number is smaller):
+          Grammar / Language / Automata
+Class 0:  Unrestricted Grammar / Turing Machine(impossible)
+Class 1:  Context Sensitive Grammar / Linear Bounded Automata(impossible, natural language processing)
+Class 2:  Context Free Grammar / Push Down Automata
+Class 3:  Regular Grammar / Finite State Automata
+Class가 높아질수록 할 수 있는 일은 늘어나지만 그만큼 cost도 비싸짐.
+
+Programming environments:
+Environment that programs are created and tested.
+
+Basic Concepts for Data
+Data storage of an actual computer.
+Memory, register or external media.
+
+Why different levels of memory? Cost?
