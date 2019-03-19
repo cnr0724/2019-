@@ -1,0 +1,138 @@
+1. Compare sociotechnical systems to conventional technical computer-based systems.
+Socio-technical systems differ from the conventional technical computer-based systems that they also include the operational process
+and the people, or the operators, while the conventional systems only covers the
+range of hardware and software. The socio-technical systems are governed by
+organizational policies and rules. 고객까지 포함해 생각하는 거니까 워드 프로세서와 출판 시스템의 차이.
+
+2. Assume the difference between a hardware failure and a software failure. Note
+that a hardware failure is represented by a bathtub curve.
+A hardware failure means a malfunction within the electronic circuits or electromechanical components
+of a computer system. The software failure means the inability of a program to continue processing
+due to erroneous logic.
+The hardware failure is represented by a bathtub curve as the hardware component eventually gets
+outdated, regardless of how efficient or new the technologies applied to the component were.
+However, software failure isn't represented by the same curve since the software failure happens due
+to the logical errors.
+Question: Assuming that the errors are corrected continuously, the software failure
+model converges to zero over time.<- Is this statement true?
+Fluctuation...
+Updating & Evolution makes the danger of the error higher....
+
+3. Discuss about failure propagation between hardware, software and operator.
+Failures are not independent and they propagate from one level to another. According to the failure
+propagation figure given during the lecture, the initial failure happens at the hardware level and
+it propagates with the other levels' failure. And the consequence follows by the opposite direction.
+예시 들면서 설명. 팀 답변 시간에서는 Insuline pump를 기준으로 설명.
+
+4. Discuss and remember about the system engineering process and the
+relationships between conceptual design, procurement, development, and
+operation.
+Conceptual design: Sets out the purpose, need of the system and the high-level features.
+Procurement(조달): Requirements defined, decisions are made and system components are purchased.
+Development(개발): System developed.
+Operation(운영): System deployed and put into use.
+보통 개발 단계에 집중. 그러나 조달 단계에서만 할 수 있는 것들이 있으며, 조달에서 외주 등으로 이룰 수 없는 것을
+개발로 해결.
+These processes relate with each other very closely. For instance, important details including the
+system requirements or the decision on the functionality and the system components to purchase are
+defined at the stage of procurement. Then the development stage starts, developing the parts defined
+to be developed (instead of purchasing) at the procurement stage.
+The phases don't happen sequentially. Rather, the phases effect each other while the system is used.
+The 'effecting process' is repeated until the purpose of the system is achieved.
+Page 25: How the phases effect each other.
+Design options limited by procurement decisions.
+Human errors made during development may introduce faults into the system.
+Inadequate testing may mean faults are not discovered before deployment.
+Configuration errors during deployment may introduce vulnerabilities.
+Assumptions made during procurement may be forgotten when system changes are made.
+
+5. What do you think is necessary for parallel development of large systems?
+The negotiation between the engineers and the understanding of the plan for the whole system and
+the component one has to develop are necessary. Misunderstanding happens inevitably, and it causes
+the waste of the cost of the engineering process. To minimize the cost, the negotiation and the
+understanding are necessary.
+Version control.
+
+6. Discuss and remember the system development process from requirement
+development to system deployment.
+System requirements definition:
+Three types of requirement(Abstract functional requirements, system properties, undesirable
+characteristics) defined at this stage.
+System design process:
+Partition requirements, identify sub-systems, assign requirements to sub-systems, specify sub-system
+functionality and define sub-system interfaces.
+Sub-system development:
+Parallel projects. Involve some COTS(Commercial Off-the-shelf). Lack of communication. Bureaucratic
+and slow mechanism.
+System integration:
+The process of putting hardware, software and people together to make a system.
+Incremental integration is recommended.
+System delivery and deployment:
+After completion, the system has to be installed in the customer's environment.
+• Requirements engineering
+– The process of refining, analysing and documenting the high-level and
+business requirements identified in the conceptual design
+• Architectural design
+– Establishing the overall architecture of the system, identifying
+components and their relationships
+• Requirements partitioning
+– Deciding which subsystems (identified in the system architecture) are
+responsible for implementing the system requirements
+• Subsystem engineering
+– Developing the software components of the system, configuring off-theshelf hardware and software,
+defining the operational processes for the
+system and re-designing business processes
+• System integration
+– Putting together system elements to create a new system
+• System testing
+– The whole system is tested to discover problems
+• System deployment
+– the process of making the system available to its users, transferring data
+from existing systems and establishing communications with other
+systems in the environment 
+
+7. Discuss why procurement decisions affect system functionality, such as
+reliability.
+System reliability depends on component reliability but unexpected interactions can cause new types
+of failure and therefore affect the reliability of the system. Failures aren't independent and they
+propagate from one level to another.
+Based on the decisions on scope of the system, system budget, system timescale and the high-level
+system requirements, whether to procure a system, the type of system and the potential system
+suppliers are decided. So the procurement decisions can be seen as the initial and critical outline
+of the system's components. The system's reliability depends a lot on the reliability of the
+system's components, and the dependability is affected by the scope of dependability requirements.
+Likewise, the system functionality is affected by the requirements made through the procurement.
+Procurement에서 어떤 외부 오픈 소스를 사용할지 등의 결정을 하는 것도 total functionality에 영향을 줌.
+
+8. Discuss how the various activities of the [system development process] affect
+system dependability.
+Decisions are made on dependability and security requirements and trade-offs are made between costs,
+schedules, performance and dependability.
+소프트웨어 시스템 개발의 requirement design 등의 과정 하나하나가 dependability에 영향을 줌.
+Dependability=the ability to provide services that can defensibly be trusted within a time-period
+
+9. Discuss one or more examples of the various barriers to protect human error.
+Human errors occur in operational processes that influence the overall dependability of the system.
+Person approach/systems approach.
+To improve security and dependability, designers should think about the checks for human error that
+should be included in a system.
+Categories of the barriers: prevent initiating error, detect error, mitigate effect of hazard etc.
+Recognize hazard, error-inducing conditions and error-likely situations, the situation of inappropriate
+risk-taking, and problem reporting, root cause analysis.
+Honda's ADAS(Automated Driver Assistance System)=Controls the car without the driver turning the
+wheel at all.
+Standards:
+The NASA software safety standard.: A clear definition of the purpose of software safety.
+Hazard testing:Safety requirements developed during this stage.
+Fault tree analysis during software design phase, late design and coding phase
+http://www.cs.nott.ac.uk/~pszcah/G53QAT/Report08/tdh06u-WebPage.html
+
+10. Discuss and summary about why the evolution is costly.
+The evolution is inherently costly due to these reasons.
+Changes must be analysed from a technical and business perspective.
+Sub-systems interact, thus unanticipated problems may arise.
+The rationale for original design decisions rarely exists.
+System structure is corrupted as changes are made to it.
+Coordinating......
+
+Team project system...
