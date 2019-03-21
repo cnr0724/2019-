@@ -1,0 +1,24 @@
+1. Explain the communication problem itself and how to resolve it.
+2. Human error? Discuss if the Facebook AI debugger can detect human error.
+3. The challenge while working in discipline working system? (Inter-disciplinary working.)
+Build clear architecture at the early state of development.+Interface design, including the ones between the modules.
+Different goals to accomplish between different departments, some goals may not be completed. Bring up some agenda and etc...
+Each sub-system's team doesn't know what other teams aim and work on. So the communication problem eventually happens.
+Finding someone who understands every discipline is almost impossible. The 
+Software engineer
+The ghost problem solved by senior engineer...-> Different solutions from the different peopl.
+Perform the pilot project to show the efficiency of particular approach. Costly but it is necessary.
+
+현실적으로 어려우니 sub-system's administrator들끼리 interact가 많이 있어야 함(feedback)+...
+4. What are the steps, requirements when integrating the system?
+5. Explain the requirement ~ spiral.
+6. Explain the seven layers of socio-technical model.
+7. The person approach and the system approach.
+
+Other teams:
+1. For stability of the system, tracking is needed whenever the system is changed. How should we manage the change
+if the system becomes too large?
+You have to always make the changes small so it doesn't alter a system a lot.
+4th law.
+
+Sub-system과 component, module, unit 등의 차이
