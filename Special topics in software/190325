@@ -1,0 +1,31 @@
+Set of instructions
+Behavior
+Result can be used in decision making(especially on the intelligent decision making)
+Simulation model can be used anywhere, but especially discrete event.
+Complicated system that cannot be expressed numerically. (->Artificial system.)
+Limited expressability (ability to describe)
+If the target system is expressed by logic, the expression should be on the Boolean logic.
+Expressing by mathematics is hard.
+->Discrete event simulation.
+Existing system: analysis, modification, extension, testing alternative strategies(->get better than certain system, optimality.)
+Future system: design (including dynamics)
+Intelligent: control, planning, monitoring.
+Simulation system classification
+1) Continuous (time) simulation
+System-(abstraction)->model
+Modeling과 abstraction
+2) Discrete (time) simulation
+Piece-wise constant
+3) Discrete event simulation
+2)면 계산해야 할 시점이 잘못될 수도 있겠지만 이건 좀 덜함…몰라.
+Structure를 주려고 하니 Modularity가 필요함
+Target이 주어지면 simulation model을 통해 그 structure를 구현하고 target system/component의 behavior도 표현해야 함.
+Behavior expression=sum of expression of small behaviors.
+Simulation environment: simulauto? 
+Input/ Model, System/Output
+Differential equation
+3)에 집중함.
+Terminology
+State variables: variables representing model’s situation (state)
+Model state: model’s current status (state variable의 collection으로 표현)
+Event: change of Model state (internal event), external input/output event
