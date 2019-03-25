@@ -1,0 +1,76 @@
+Quiz next Wednesday: Side effect of...
+다음주까지 과제 있음.
+
+Elementary (primitive) data type
+Explicit declaration always overrides implicit declaration.
+대부분은 implicit declaration을 허용 안 하는데 fortran은 사용.
+아예 declaration을 안 하는 언어들도 있음.(사용하면 자동으로 type casting해줌)
+
+Defining function: Multiprogramming하기 때문에 communicate을 위해 input, output, 기능 등을 declare함.
+Why declare? Machine에게 힌트를 주는 것과 같음.
+Choice of storage representation for translator.
+Storage management by specifying the life time of variables.
+Polymorphic operations, type checking.
+A->B->C->D
+Stack
+A Activation Record
+B
+C
+D
+A() call B()
+B() call C()
+C() call D()
+가능하면 stack을 사용하는 게 메모리보다 빠름.
+
+Heap...
+
+Polymorphic operation?
+A subprogram or function that can assume more than one type.
+Ad hoc polymorphism=Overloading
+Different code for different manifestations of the operators.
+Implicit coercion.
+Universal polymorphism(Generic Polymorphism)
+Function name selects on a variety of implementations depending on the types of its arguments.
+
+Type Checking
+Checking the proper number of arguments of the proper data type of each operations.
+1. Static type checking
+Operation checking: arguments와 results의 수와 타입 체킹함
+Variable checking: type of object under the name
+Type of constant: syntactic form of literals
+Efficient but not flexible
+2. Dynamic type checking
+Difficult to debug
+Need storage to keep type information
+Slow execution speed for type checking
+Limit the compiler optimization due to unknown factors
+Flexibility, but inefficient.
+Dope vector
+
+Strong typing: Detect all type errors statically.
+
+Volatile(휘발성) Type:
+Variable type whose value could be changed by outside operation(다른 사람)
+Optimization is not applied to the volatile variables.
+
+Type safe system: A function cannot generate result with a type outside of the signature.
+Type inference: Types can be resolved from the program by how they are used.
+Type inference는 C++도 사용함.(auto keyword로 사용.)
+프로그래머한테는 편하지만 100% 대비 되어야 하므로 언어를 만들 때는 음..으음?임.
+
+Type conversion:
+In the middle of the program, the type is changed.
+1. Explicit type conversion: using a set of built-in functions.
+2. Implicit type conversion: type coercion as specified in the language.
+기본 규칙은 not to lose information(=widening, promotion)
+int a=(int) 3.65;
+a의 값은?->ca depends임(언어에 따라 다름.)
+
+Type conversion을 거치면 operation result의 accuracy가 줄어들 수 있음.
+(3.7*1.5를 3*1로 바꿔서 계산하면 속도는 빠르지만 값은 달라짐.)
+((x*y/x)=y에서 x*y가 overflow나면 저 식이 성립 안 할 수도 있음.<-hardware limitation 때문)
+입실론 같은 것도 문제가 생길 수 있음.(엄청 작은 값은 아예 잘라버림.)
+Imprecise...어쩌구...:위에서 말한 컴퓨테이션에서의 오류에 대한 논문
+
+Integer는 현실에서야 infinite하지만 컴퓨터에서는 finite함.
+Floating point real numbers
