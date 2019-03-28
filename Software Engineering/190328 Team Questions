@@ -1,0 +1,60 @@
+1. With the Clean room SW development process, we can use 'statistical' strategy to reduce
+the cost of testing in development environment. In short, we can prioritize the functions to be
+tested using user history. Here, what factors can be used for the prioritizing?
+I think, the frequency of the function used by user can be a factor. In addition,
+the damage caused by the malfunction can be another factor.
+2. Among the two approaches to reduce rework cost, simply we can assume that by adopting
+change tolerance, we can save money and time because we can reuse the prototype. But why the
+change tolerance is more costly than the change avoidance?
+By the change avoidance, we can easily maintain the overall architecture even if the
+development goes further. But by the change tolerance, we can easily degrade the structure
+because of the incremental development.
+3. Which one is more useful strategy? Change avoidance and change tolerance?
+Both strategies are useful and each strategy depends on which system engineer makes.
+In my opinion, change tolerance is more useful strategy. Because nowadays required systems
+are mostly sensitive to social&business changes and tend to want more functionalities.
+4. What is bad things about prototype?
+Poor prototypes can disappoint cutomers, prototype can occupy too many resources like time,
+money, and human resources.
+5. How does the prototype contribute to the efficiency of the system?
+By making a prototype, checking whether the system is providing the right
+result through effective mean gets easier.
+6. Which do you think is the most important part of design activities during
+the development, from architectural design to database design? Discuss and explain why.
+In my opinion, the most important part is architectural design, because in most
+cases the problem happens while integrating the sub-systems that have been developed
+without any problem. So designing and coordinating the architecture to reduce any further
+cost seems the most important to me.
+7. If you want to build a prototype for your software, which requirements or functionalities
+would you add or focus on and which criteria should be considered to build a good prototype?
+Since prototypes should be a quick way of demonstrating the systems, I'd use rapid ways such as
+scripting languages or tools. I'd focus on developing my prototype by only including the a few
+requirements with highest priorities because I'd want to make the most required features clear
+and easy to understand therefore I'd leave out some crucial functions that take very long time
+to implement such as error checking and recovery.
+8. Incremental delivery is a good way to create trustworthy software, but what are the
+problems that a software engineer faces when he/she decides to use incremental delivery?
+• Most systems require a set of basic facilities that are used by different parts of the system.
+– As requirements are not defined in detail until an increment is to be implemented, it can be
+hard to identify common facilities that are needed by all increments.
+• The essence of iterative processes is that the specification is developed in conjunction
+with the software.
+– However, this conflicts with the procurement model of many organizations, where
+the complete system specification is part of the system development contract.
+9. Does refactoring always reduce costs? If not, explain why.
+10. Why should test plan precede the main process?
+
+1, 4&5&7, 8, 10
+What are the requirements and the functionalities to focus on while building a good prototype and how does it
+contributes to the efficiency of the system?
+prototype은 시제품, 미리 만들어봄으로써 완제품의 guideline/blueprint이 되고 prototype을 통해
+프로토타입에서 사용한 방법이 right result를 effective하게 이끌어내는지 확인할 수 있기 때문에
+그를 통해 system의 efficiency를 높아짐.
+Why prototype? Provide basic concept of the customer.
+
+Weakness of the prototype
+What if the prototype is not...not good...
+User-confusion
+Developer's misunderstanding of the user requirements
+Accessive developing time
+When do we prefer the waterfall model than incremental model except large-scale project?
