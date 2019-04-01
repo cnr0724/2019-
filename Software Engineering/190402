@@ -1,0 +1,141 @@
+1. Discuss and write your own ideas on why rapid development and delivery is
+important from a business and technology perspective.
+At a business perspective, it is very important to develop, deliver and release
+the software rapidly as one of the critical standard of a success of the system
+is the timing the system is released. Especially in the business market that deals
+with the technology, the preoccupating companies earn some additional advantages
+compared to latecomers of the field, assuming that the starter's product achieves
+some certain level. After release, providing evolution to the system helps gathering
+new customers and making existing customers loyal to the system as it matches their
+new requirements. So rapid process is important.
+
+2. Explain the principle of agile methods with each reason.
+1) Customer involvement: By involving the customer, reflecting rapidly changing
+requirements and evaluating the iterations of the system are enabled.
+2) Incremental delivery: This enables the requirements to be fulfilled as fast as
+it can be by providing new, specified requirements in closest increment.
+3) People not process: By this principle, members of the development team can concentrate
+and be recognized to what they have to do instead of wasting time to prescriptive processes.
+4) Embrace change: This makes the whole system development and the system itself flexible.
+5) Maintain simplicity: The complexity makes it harder to fulfill other principles.
+By maintaining simplicity, the system gets simple and easy to understand, and it leads to
+better system.
+
+3. Discuss the strengths and problems of agile methods.
+Strengths:
+• Customer satisfaction by rapid, continuous delivery of useful software.
+• People and interactions are emphasized rather than process and tools.
+Customers, developers and testers constantly interact with each other.
+• Working software is delivered frequently (weeks rather than months).
+• Face-to-face conversation is the best form of communication.
+• Close, daily cooperation between business people and developers.
+• Continuous attention to technical excellence and good design.
+• Regular adaptation to changing circumstances.
+• Even late changes in requirements are welcomed.
+Problems:
+• It can be difficult to keep the interest of customers who are
+involved in the process.
+• Team members may be unsuited to the intense involvement that
+characterizes agile methods.
+• Prioritizing changes can be difficult where there are multiple
+stakeholders.
+• Maintaining simplicity requires extra work.
+• Contracts may be a problem as with other approaches to iterative
+development.
+
+4. Summarize the determinants when deciding on a plan-driven or agile approach
+to system development.
+The determinants are the importance of a very detailed specification and design,
+the realism of an incremental delivery strategy, the size, type, and the expected
+lifetime of the system, the available technologies for supporting system development,
+the way the development team is organized, cultural, organizational issues,
+the skill levels of the designers and programmers, and the external regulation.
+
+5. Discuss the release cycle of XP and compare it to the waterfall model.
+The release cycle consists of six phases: selecting user stories for the release,
+break down stories to tasks, plan release, develop/integrate/test software, release
+software, evaluate system.
+
+6. Summarize the important features on practices of XP.
+Incremental planning:
+Requirements are recorded on story cards and the stories to be
+included in a release are determined by the time available and
+their relative priority. The developers break these stories into
+development ‘Tasks’.
+Small releases:
+The minimal useful set of functionality that provides business
+value is developed first. Releases of the system are frequent
+and incrementally add functionality to the first release.
+Simple design:
+Enough design is carried out to meet the current requirements
+and no more.
+Test-first development:
+An automated unit test framework is used to write tests for a
+new piece of functionality before that functionality itself is
+implemented.
+Refactoring:
+All developers are expected to refactor the code continuously as
+soon as possible code improvements are found. This keeps the
+code simple and maintainable.
+Pair programming:
+Developers work in pairs, checking each other’s work and
+providing the support to always do a good job.
+Collective ownership:
+The pairs of developers work on all areas of the system, so that
+no islands of expertise develop and all the developers take
+responsibility for all of the code. Anyone can change anything.
+Continuous integration:
+As soon as the work on a task is complete, it is integrated into
+the whole system. After any such integration, all the unit tests in
+the system must pass.
+Sustainable pace:
+Large amounts of overtime are not considered acceptable as
+the net effect is often to reduce code quality and medium term
+productivity
+On-site customer:
+A representative of the end-user of the system (the customer)
+should be available full time for the use of the XP team. In an
+extreme programming process, the customer is a member of
+the development team and is responsible for bringing system
+requirements to the team for implementation.
+
+7. Read the story card on slide 22 carefully and look for tasks 4 or above.
+Task 4: The system checking the dose is within the approved range and ask to
+change it if it is outside the range of recommended doses.
+
+8. Explain test-driven development and think about the impact on SW quality.
+In test-driven development, writing tests before code clarifies the requirements to be
+implemented.
+All previous and new tests are run automatically when new
+functionality is added, thus checking that the new
+functionality has not introduced errors.
+
+9. Summarize the advantages of pair programming.
+Develop common ownership and spread knowledge across the team.
+Serves as an informal review process, and encourages refactoring.
+
+10. Explain the SCRUM process on slide 40.
+After reviewing work to be done, item is selected from the product backlog
+and the sprint is planned. After sprint, the potentially shippable software
+is produced and sprint backlog is checked, reviewing the sprint. Then the
+SCRUM process starts again from the reviewing work to be done.
+
+11. Summarize the benefits of the SCRUM.
+The product is broken down into a set of manageable and
+understandable chunks.
+• Unstable requirements do not hold up progress.
+• The whole team have visibility of everything and
+consequently team communication is improved.
+• Customers see on-time delivery of increments and gain
+feedback on how the product works.
+• Trust between customers and developers is established and a
+positive culture is created in which everyone expects the
+project to succeed.
+
+12. Summarize the strategies for scaling up and scaling out of agile methods.
+• ‘Scaling up’ is concerned with using agile methods for
+developing large software systems that cannot be developed
+by a small team.
+• ‘Scaling out’ is concerned with how agile methods can be
+introduced across a large organization with many years of
+software development experience.
