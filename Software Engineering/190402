@@ -148,3 +148,25 @@ software development experience.
 Flexible planning, frequent system releases, continuous
 integration, test-driven development and good team
 communications. 
+
++alpha)
+1.
+Q) Search and explain the regression testing and the reason it is used in
+test-driven development.
+A) Regression testing is re-running functional and non-functional tests to
+ensure that previously developed and tested software still performs after a
+change. It is used in the test-driven development as it is important to check
+if the added part of the product code crashes with the least part of the code,
+as the TDD itself is about adding and rewriting the product code in order to
+achieve a level that test code requires.
+
+2.
+Q) Explain the definition and the job of the scrum master.
+A) The Scrum master is a facilitator for an agile development team using
+Scrum. As the team gets isolated from the customer and the organization
+during the developing phase, the scrum master should exist to channel the
+communications, or manage the process for how information is exchanged.
+The scrum master is responsible for arranging daily meeting, tracking
+the backlog of work to be done, recording decisions, measuring progress
+against the backlog and communicates with customers and management
+outside of the team and etc.
