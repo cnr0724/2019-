@@ -55,6 +55,9 @@ the skill levels of the designers and programmers, and the external regulation.
 The release cycle consists of six phases: selecting user stories for the release,
 break down stories to tasks, plan release, develop/integrate/test software, release
 software, evaluate system.
+Difference:
+Iteration/cycle, the lifetime of the process, reversing the phases,
+the speed of change(new requirements) reflection.
 
 6. Summarize the important features on practices of XP.
 Incremental planning:
@@ -100,8 +103,9 @@ the development team and is responsible for bringing system
 requirements to the team for implementation.
 
 7. Read the story card on slide 22 carefully and look for tasks 4 or above.
-Task 4: The system checking the dose is within the approved range and ask to
-change it if it is outside the range of recommended doses.
+Task 4: Display the confirmed prescription for checking. 'OK' and 'Change' button is displayed.
+'OK' leads to the recording on the database, while 'change' leads to the 'Prescribing
+medication' process.
 
 8. Explain test-driven development and think about the impact on SW quality.
 In test-driven development, writing tests before code clarifies the requirements to be
@@ -109,6 +113,8 @@ implemented.
 All previous and new tests are run automatically when new
 functionality is added, thus checking that the new
 functionality has not introduced errors.
+TDD can cover the uncertainty of the program.
+https://gmlwjd9405.github.io/2018/06/03/agile-tdd.html
 
 9. Summarize the advantages of pair programming.
 Develop common ownership and spread knowledge across the team.
