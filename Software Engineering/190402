@@ -159,6 +159,11 @@ change. It is used in the test-driven development as it is important to check
 if the added part of the product code crashes with the least part of the code,
 as the TDD itself is about adding and rewriting the product code in order to
 achieve a level that test code requires.
+*잘못된 질문. Regression testing은 어디서나 해야하는 것이고 TDD는 regression testing의
+부하를 줄여주는 역할을 함.(TDD를 도입하면 기존의 방식에서 regression testing이 manually하게
+이뤄질 때 test code만 돌리면 되기 때문.) 그러므로 regression testing을 위해 TDD를 한다는 질문이 더
+알맞음(현재 질문은 인과관계가 반대임.)
+
 
 2.
 Q) Explain the definition and the job of the scrum master.
