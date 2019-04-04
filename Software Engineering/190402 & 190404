@@ -163,7 +163,17 @@ achieve a level that test code requires.
 부하를 줄여주는 역할을 함.(TDD를 도입하면 기존의 방식에서 regression testing이 manually하게
 이뤄질 때 test code만 돌리면 되기 때문.) 그러므로 regression testing을 위해 TDD를 한다는 질문이 더
 알맞음(현재 질문은 인과관계가 반대임.)
-
+->
+New
+Q) Regression testing is inevitable while developing a system.
+Explain the definition of the regression testing and the advantage of the TDD on it.
+A) Regression testing means re-running functional and non-functional tests to
+ensure that previously developed and tested software still performs after a
+change. So it is necessary to go through regression testing when building a software.
+But the cost of regression testing is quite high; in other methods, the regression
+testing should be done manually and this becomes burdensome. However, in TDD, repetition of
+providing the test code and writing the product code performs as a regression testing and
+therefore reduces the total cost.
 
 2.
 Q) Explain the definition and the job of the scrum master.
@@ -175,3 +185,10 @@ The scrum master is responsible for arranging daily meeting, tracking
 the backlog of work to be done, recording decisions, measuring progress
 against the backlog and communicates with customers and management
 outside of the team and etc.
+
+공동구매를 하긴 하는데 텀블벅, 와디즈, 킥스타터에서 이뤄지는 크라우드 펀딩과는 달리 말 그대로 같이
+구매할 사람을 모으는 형식. 단순히 배송비를 아끼기 위해 같이 구매를 할 수도 있고, 여럿이 구매함으로써
+제품 자체의 가격을 낮출 수도 있음. 상품은 1인 가구가 사면 최소 몇달씩은 써야하는 생필품(휴지나 락스)부터
+한 단위가 감당하기 어려운 양인 채소부터 현재 블로그, 인스타그램 등에서 이뤄지는 공동구매 대상
+품목(청소기, 노트북 등)까지 다양. 누구나 공동구매 주최자가 될 수 있고 동시에 참여자가 될 수 있음.
+이 형식을 빌어 크라우드 펀딩도 가능하긴 하나 이게 메인이 되진 않을듯...
