@@ -1,0 +1,29 @@
+Linear independence
+Iff trivial solution
+Dimension=maximum number of linearly independent vectors
+Basis=set of n linearly independent vectors (such sets are not unique)
+
+Representation
+The list of scalars is the representation of v.
+
+Coordinate-free geometry
+Point exists in space regardless of any reference or coordinate system.
+*Name to indicate more specific way is needed.
+->Euclidean geometry.
+
+Frame of reference.
+Relate points and objects to our physical world.
+
+좌표계=frames
+Coordinate systems와 frames는 다르다.
+
+Affine system (frame) & coordinate systems (vector space) difference….
+
+4-D homogeneous coordinate representation can represent vectors and points in 3D Cartesian coordinates. 𝑝 = 𝑥’ 𝑦’ 𝑧’ 𝑤 T • If 𝑤 = 0, the representation refers to a vector. • If 𝑤 ≠ 0, the representation refers to a point in 3D. • If 𝑤 ≠ 0 and 𝑤 ≠ 1, we can return to a 3D point by dividing (𝑥′, 𝑦′, 𝑧′) by 𝑤.
+
+21p.
+
+Affine transformation: 12 degrees of freedom (Conceptual explanation.)
+
+Affine transformation preserves lines.
+
