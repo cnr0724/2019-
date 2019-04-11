@@ -1,0 +1,36 @@
+4 problems… 70~80퍼는 똑같이 나옴. 어떻게 푸는 건지.
+Parameters passing
+Several ways of communicating with the data
+1. Call by value.
+Using activation record.
+Callie doesn’t know anything about caller.
+-> Mathematically clean. But SWAP doesn’t work. Useful but not convenient.
+2. Call by reference
+Give the address instead of value.
+Aliasing problem
+Mid-fault problem: Function die in the middle of the execution, the memory has some changed value. In that case we don’t know how to rollback.
+Rule of thumb: Do nothing or the whole thing.
+3. Call by name
+Procedure can be replaced by its body with actuals by its body.
+Name conflict
+4. Copy-in copy-out (call by value result)
+While running the function, nothing is changed at the caller’s side.
+1) Copy-in phase: Copy the contents into the parameters and reserve the address.
+2) Copy-out phase: Copy the results to the actuals.
+3) Clean: clean when the error occurs in the middle of function compared to the call by reference.
+진짜 좋은데 복잡해서 그냥 다른 방식 사용하고 리스크 감수함.
+
+Function 파트는 끝
+
+Heap memory management
+Fixed size elements
+Simple management by maintaining free storage list.
+Allocation methods
+OS는 Next fit을 많이 씀.
+
+Floating point/Fixed point
+Accessing formula for array/variant record …
+Scoping
+Parameter
+Lambda calculus
+
