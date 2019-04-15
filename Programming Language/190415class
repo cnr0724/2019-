@@ -1,0 +1,23 @@
+Mid-term 4문제 (아캠에 기출 올라가 있음)
+5월 5일까지임.
+
+Lambda expression
+Functional programming language의 근간.
+Input, output, body로 이루어짐.
+
+While applying lambda calculation, it is quite inefficient. So the five rules were introduced.
+(Formal to informal representation (1/3) slide)
+Calculating lambda expression (informal) ->1 problem.
+
+Free variables.
+Names of variables are quite immaterial.
+Scoping rule.
+
+Why lambda expression? Very compact.
+
+Substitution
+V=X and X is not free=> x cannot change anything.
+
+β-reduction
+Eliminate as many abstraction as possible.
+3번처럼 헷갈리는 케이스들 나올 확률 높음.
