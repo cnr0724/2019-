@@ -1,0 +1,301 @@
+[Part 1]
+Requirements Engineering
+Objectives:
+1. The concept of user and system requirements and why these requirements differ.
+2. The differences between functional and nonfunctional software requirements.
+3. How requirements may be organized.
+4. The principal requirements engineering activities of elicitation.
+5. Why requirement management is necessary.
+
+Requirements engineering
+The process of establishing (the services that the customer requires from a system)
+and (the constraints under which it operates and is developed)
+Requirements=Descriptions of the system services and constraints generated during the process.
+
+Requirements? *1번째 문제
+Range from a high-level abstract statement of a service to a detailed mathematical functional
+specification.
+Inevitable as requirements may serve a dual function.
+1) The basis for a bid for a contract
+2) The basis for the contract itself
+
+Type of requirements *2번째 문제
+1. User requirements (for customers)
+Statements in natural language + diagrams + tabular of the services the system provides and its
+operational constraints.
+2. System requirements (Part of a contract between client and contractor)
+A structured document setting out detailed descriptions of the system's functions, services and
+operational constraints.
+*User requirement가 definition에 가깝다면 system requirement는 user requirement의 specification.
+
+Functional and non-functional requirements *3번째 문제
+1. Functional requirements
+Statements of services the system should provide, how the system should react to inputs and how the
+system should behave in particular situations.(Including what the system should not do.)
+2. Non-functional requirements
+Constraints on the services or functions offered by the system such as timing constraints,
+constraints on the development process, standards etc. + System properties (safety, performance
+and etc.)
+3. Domain requirements
+Constraints on the system from the domain of operation.
+
+Functional requirements
+Functionality or system services.
+Depend on the type of software/system and expected users.
+Functional user requirements/functional system requirements 관계는 type of requirements의 것과 유사.
+
+Requirements imprecision
+Problems arise when requirements are not precisely stated.
+Ambiguous requirements may be interpreted in different ways by developers and users.
+
+Requirements completeness and consistency
+Complete: Should include descriptions of all facilities required.
+Consistent: Should be no conflicts or contradictions in the descriptions of the system facilities.
+
+Non-functional requirements * 4번째 문제
+Define system properties and constraints.
+Process requirements may also be specified mandating a particular IDE etc.
+Non-functional requirements may be more critical than functional requirements.
+
+Non-functional requirements implementation
+Non-functional requirements may affect the overall architecture of a system rather than the
+individual components.
+A single non-functional requirement may generate a number of related functional requirements.
+
+Goals and requirements
+Non-functional requirements may be difficult to state precisely, and imprecise requirements may lead
+to hard verifying process.
+Goal: A general intention of the user.
+Verifiable non-functional requirement: A statement using some measure that can be objectively
+tested.
+
+Domain requirements *5번째 문제
+Operational domain of the system imposes requirements.
+Domain requirements be new functional requirements, constraints on existing requirements or define
+specific computations.->If not satisfied, the system may be unworkable.
+
+Domain requirements problems
+1) Understandability
+Requirements are expressed in the language of the application domain, which is often not understood
+by software engineers.
+2) Implicitness
+Domain specialists understand the area so well that they don't think of making the domain
+requirements explicit.
+
+[Part 2]
+The software requirements document
+The official statement of what is required of the system developers.
+Include both user & system requirements.
+**Not a design document.(Focus on what the system should do.)
+
+Agile methods and requirements *6번째 문제
+Agile methods<(Producing a requirements document is a waste of time.)
+Methods like XP use incremental requirements engineering and express requirements as user stories.
+Practical for business systems but problematic for systems requiring a lot of pre-delivery analysis
+(embedded system) or systems developed by several teams.
+
+Requirements document variability *7번째 문제
+Information in requirements document depends on the type of system and the approach to development.
+Requirements documents standards have been designed (e.g., IEEE standard).
+Applicable to the requirements for large systems engineering projects.
+
+Requirements specification
+The process of writing the user and system requirements in a requirements document.
+User requirement: understandable by end-users and customers.
+System requirement: detailed requirements, technical information.
+
+Requirements and design *8번째 문제
+Requirements should state 'what' and the design should describe 'how'.
+In practice, requirements and design are inseparable.
+1) A system architecture may be designed to structure the requirements.
+2) The system may inter-operate with other systems generating design requirements.
+3) The use of a specific architecture to satisfy non-functional requirements may be a domain
+requirement. (May be the consequence of a regulatory requirement.)
+Architectural
+-abstract
+-interface
+-component
+-data structure
+-algorithm
+
+Problems with natural language
+1) Lack of clarity
+2) Requirements confusion
+3) Requirements amalgamation
+
+Guidelines for writing requirements
+A standard format.
+Shall=mandatory, Should-desirable requirements.
+Hightlighting. Avoid computer jargon.
+Include an explanation (rationale) of why.
+
+Structured specifications
+The freedom the requirements writer is limited and requirements are written in a standard way.
+Works well for some types of requirements but sometimes too rigid for writing business system
+requirements.
+
+Form-based specifications
+Definition of the function/entity.
+Descriptions of inputs & outputs, where they com and go.
+Information needed for the computation and other entitiies.
+Description of the action.
+Pre/post-conditions.
+The side effects.
+
+Tabular specification
+Used to supplement natural language.
+Particularly useful while defining a number of possible alternative courses of action.
+
+Requirements engineering processes.
+The processes used for RE vary widely depending on the application domain, the people involved and
+the organization developing the requirements.
+Iterative activity in which the processes interleave.
+Generic activities common to all processes
+-Requirements elicitation
+-Requirements analysis
+-Requirements validation
+-Requirements management
+
+A spiral view of the requirements engineering process *9번째 문제
+Start->Business requirements specification->Feasibility study->User requirements elicitation
+->User requirements specification->Prototyping->System requirements elicitation
+->System requirements specification and modeling->Reviews->System requirements document.
+
+Requirements elicitation and analysis *10번째 문제
+Sometimes called requirements elicitation/discovery/gathering/acquisition.
+Involves technical staff working with customers to find out about the application domain, the
+service the system should provide and the system's operational constraints.
+May involve stakeholders.
+
+Requirements elicitation and analysis *11번째 문제
+Software engineers work with a range of system stakeholders to find out about the application
+domain, the services, required system performance, hardware constraints and etc.
+Stages include:
+-Requirements discovery
+-Requirements classification and organization => clustering
+(Subsystem 식별과 system architecture 설계와 연결)
+-Requirements prioritization and negotiation
+-Requirements specification
+
+Problems of requirements elicitation
+1) Stakeholders don't know what they really want.
+2) Stakeholders express requirements in their own terms.
+3) Different stakeholders may have conflicting requirements.
+4) Organizational and political factors may influence the system requirements.
+5) The requirements change during the analysis process. New stakeholders may emerge and the
+business environment change.
+
+Requirements discovery
+The process of gathering information about the required and existing systems and distilling the user
+and system requirements from this information.
+Interaction is with system stakeholders from managers to external regulators.
+Systems normally have a range of stakeholders.
+
+Interviewing *12번째 문제
+Formal/informal interviews with stakeholders are part of most RE processes.
+Types of interview
+-Closed interviews based on pre-determined list of questions
+-Open interviews where various issues are explored with stake holders.
+Effective interviewing을 위한 조언
+
+Interviews in practice
+Normally a mix of closed and open-ended interviewing.
+Interviews are good for getting an overall understanding of what stakeholders do and how they
+interact with the system.
+Not good for understanding domain requirements.
+-Requirements engineers cannot understand specific domain terminology.
+-Some domain knowledge is so familiar that people find it hard to articulate or think that it's not
+worth articulating.
+
+Scenarios *12번째 문제
+Real-life examples of how a system can be used.
+Should include
+-A description of the stating situation. (Initial assumption)
+-A description of the normal flow of events. (Normal)
+-A description of what can go wrong. (What can go wrong)
+-Information about other concurrent activities. (Other activities)
+-A description of the state when the scenario finishes. (System state on completion)
+
+Use cases
+A scenario based technique in the UML which identify the actors in an interaction and which describe
+the interaction itself.
+A set of use cases should describe all possible interactions with the system.
+Sequence diagrams may be used to add detail to use-casese by showing the sequence of event
+processing in the system.
+
+Ethnography (참여적 관찰법)
+A social scientist spends a considerable time observing and analysing how people actually work.
+People do not have to explain or articulate their work.
+Social and organizational factors of importance may be observed.
+Ethnographic studies have shown that work is usually richer and more complex than suggested by
+simple system models.
+
+Scope of ethnography
+Requirements that are derived from the way that people acutally work rather than the way which
+process definitions suggest that they ought to work. (현재를 위한 것이지 미래를 위한 것은 아님.)
+Effective for understanding existing processes, but cannot identify new features that should be
+added to a system.
+
+Focused ethnography
+Combines ethnography with prototyping.
+Prototype development results in unanswered questions which focus the ethnographic analysis.
+The problem with ethnography is that it studies existing practices which may have some historical
+basis which is no longer relevant.
+
+Ethnography and prototyping for requirements analysis
+Ethnographic analysis->Debriefing meetings->Focused ethnography\
+                                            <\      |v           => Prototype evaluation
+                 Generic system development->System prototyping/
+
+Requirements validation *14번째 문제.
+Concerned with demonstrating that the requirements define the system that the customer really wants.
+Requirements error costs are high, so validation is very important.
+
+Requirements checking
+Validity(타당성)/Consistency(일관성)/Completeness(완전성)/Realism(실현가능성)/Verifiability
+
+Requirements validation techniques
+Requirements reviews: Systematic manual analysis of the requirements.
+Prototyping: Using an executable model of the system to check requirements.
+Test-case generation: Developing tests for requirements to check testability.
+
+Requirements reviews
+Regular reviews should be held while the requirements definition is being formulated.
+Both client and contractor staff should be involved in reviews.
+Reviews may be formal (with completed documents) or informal. Good communications between
+developers, customers and users can resolve problems at an early stage.
+
+Review checks
+Verifiability Realistically testable한가?
+Comprehensibility 적절하게 이해할 수 있는가?
+Traceability Requirement의 origin이 누군지 추적할 수 있는가? (명확하게 기술되었나?)
+Adaptability 다른 requirements에 큰 영향을 주지 않고도 바뀔 수 있나?
+
+Requirements management
+Requirements management is the process of managing changing requirements during the requirements
+engineering process and system development.
+각각의 requirement를 명확하게 해서 추적하고 link를 갖고 있는 게 중요. 변화가 있을 때를 대비해 formal
+process 마련하는 것도 중요.
+
+Requirements evolution
+Initial understanding of problem->Initial requirements----->
+Changed understanding of problem->Changed requirements
+
+Requirements identification: Each requirement must be uniquely identified so that it can be
+cross-referenced with other requirements.
+A change management process: The set of activities that assess the impact and cost of changes.
+Traceability policies: These policies define the relationships between each requirement and between
+the requirements and the system design that should be recorded.
+Tool support: Tools that may be used range from specialist requirements management systems to
+spreadsheets and simple database systems.
+
+Requirements change management
+Deciding if a requirements change should be accepted.
+Problem and change specification analysis:
+The problem or the change proposal is analyzed to check that it is valid.
+Change analysis and costing:
+The effect of the proposed change is assessed using traceability information and general knowledge
+of the system requirements.
+Change implementation:
+The requirements document, the system design and implementation are modified. The document should
+be organized so that changes can be easily implemented.
