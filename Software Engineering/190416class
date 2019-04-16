@@ -1,0 +1,30 @@
+4. Waterfall model. Since non-functional requirement is related to the whole part of the
+developing process, building an architecture towards the non-functional requirement is efficient.
+Agile model. I think it is more efficient because in the point of maintainability, sometimes changing
+the process rapidly is better to achieve the given goal.
+Waterfall model: Non-functional requirement provided. 
+Agile model: No description 
+
+5. Why is it difficult to articulate?
+Customers may not be willing to specify the characteristics of the domain.
+The clients think their knowledge is common in the society, so they don't feel the need to notice
+the knowledges about the domain. The gap between the client and the developer's knowledge is quite big.
+But it's not a duty/responsibility of the client to teach the knowledge. So the client doesn't provide
+concrete knowledge, while the developer should fill/bridge the gap.
+
+12. Actors would be buyer, seller and the administrator of the system.
+Buyer: Search for the product, buy the product, checking the transaction process, leaving the review,
+register, authentication.
+Seller: Upload the post, upload the link, see the post, checking the transaction process, register,
+authentication.
+Administrator: Check the post, assign the seller, accessing the databases, checking
+the transaction process, authentication and etc.
+A scenario는 뭐...알아서...
+
+13. Upcoming features/finding new features.
+Client explains her requirement, figure out the relationship between hers and others.
+현재 상황 이해엔 좋지만 새 거 찾기엔 적합하지 않음. The client explains abstractly about the requirements.
+The way to specify is ethnography. 현재 시스템을 위한 거지 미래 시스템을 위한 새로운 워킹 스타일을 제시하지는
+않음. 사용자의 환경에 참여, 사용자의 행동을 관찰.
+
+Ppt 개선...
