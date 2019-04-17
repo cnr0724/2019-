@@ -1,0 +1,46 @@
+Church-Rosser theorem
+No two orders of evaluate of lambda-expression can give different normal forms
+Although some many possibly fail to terminate.
+
+Call by reference는 name conflict 걱정 X
+Call by name은 debug와 change가 쉽지만 name conflict 해결이 어려워서...
+
+Free variable
+이름이 연관없는 애들의 집합...뭐하나 바꾸면 연관있는 애들만 바뀜
+
+Definition part & activation part of the lambda calculus
+
+LISP=language for AI
+Function만 존재
+Common LISP이 많이 쓰임.
+
+Atoms and binding.
+Atom: refer to just about any s-expression that cannot be taken apart
+Binding: another form of value assignment
+
+LISP에서 apply의 역할은....?
+
+Predicate: TF return하는 함수들
+(atom a)/(listp l)/(equal a b)/(numberp n)/(member m list)
+Logical operators
+
+Iteration
+(do )
+do*는 sequentially하게 이뤄짐.
+mapcar/maplist 등이 있음.
+
+Property list
+List of properties associated with each item
+Property list (foo) is global
+Attribute store
+setf
+Attribute retrieval
+
+IO Functions
+input: (read)
+file loading: (load)
+
+Lambda calculus
+Data type(especially structured ones)
++General questions.
+저건 꼭 봐야함....
